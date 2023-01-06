@@ -1,0 +1,17 @@
+[package]
+name = "nm-binutils"
+edition = "2021"
+version = "0.0.0"
+authors = ["Jack Ren <me@rjk.pub>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["nm", "binutils"]
+categories = ["Debugging"]
+repository = "https://github.com/bjrjk/nm-rs"
+homepage = "https://github.com/bjrjk/nm-rs"
+documentation = "https://docs.rs/nm-binutils"
+description = """
+Linux `nm` equivalent rust library to list symbols from object files using goblin.
+"""
+
+[dependencies]
