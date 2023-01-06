@@ -3,7 +3,7 @@ use std::vec::Vec;
 use std::collections::HashMap;
 use crate::object::symbol::Symbol;
 
-struct ELF<'a> {
+pub struct ELF<'a> {
     data_bytes: &'a Vec<u8>,
     object: elf::Elf<'a>,
 }

@@ -3,3 +3,5 @@
 //! Currently support ELF only.
 //! 
 pub mod object;
+
+pub use crate::object::elf::ELF;
