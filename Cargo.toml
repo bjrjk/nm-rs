@@ -15,3 +15,4 @@ Linux `nm` equivalent rust library to list symbols from object files using gobli
 """
 
 [dependencies]
+goblin = "0.6.0"
