@@ -7,7 +7,7 @@ Linux `nm` equivalent rust library to list symbols from object files using gobli
 ```toml
 # Cargo.toml
 [dependencies]
-nm-binutils = "0.0"
+nm-binutils = "0.1"
 ```
 
 # License
