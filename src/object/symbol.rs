@@ -6,7 +6,7 @@ use goblin::elf::{Elf, sym::*};
 /// - Binding: LOCAL, GLOBAL, WEAK, ...
 /// - Typ: NOTYPE, OBJECT, FUNC, SECTION, FILE, COMMON, TLS, ...
 /// 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Symbol<'a> {
     /// Symbol's name
     pub name: &'a str,
